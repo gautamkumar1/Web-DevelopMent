@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f5f5f5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header */
+.container{
+    margin: 0 34px;
+    padding: 8px;
+}
+
+/* Navbar */
+.header_navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Logo */
+.header_navbar-logo{
+    width: 250px;
+}
+
+/* Navbar Items */
+.header_navbar-items{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+/* Navbar Items Link */
+.header_navbar-items-link a{
+    text-decoration: none;
+    color: #ffa500;
+    font-size: 20px;
+}
+
+/* Hover on anchor tag */
+.header_navbar-items-link a:hover{
+    color: #008000;
+    text-decoration: underline;
+}
+
+/* Section 1 */
+.main_section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.main_text{
+    width: 600px;
+}
+
+.main_image img{
+    width: 600px;
+}
+
+.main_text-heading{
+    font-size: 44px;
+    color: #c000ff;
+    
+}
+
+/* Section 2 */
+
+.showcase{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.showcase_cards h3{
+    color: #c000ff;
+    font-weight: 500px;
+    margin-top: 7px;
+}
+
+/* Section 3 */
+
+.section_team{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_team-image img{
+    width: 500px;
+    margin: 45px;
+}
+.section_team-text p{
+    width: 600px;
+    color: #c000ff;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/* Section 3 */
+.BooksSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.BooksSection_text p{
+    width: 600px;
+    color: #c000ff;
+    font-weight: 300;
+    font-size: 20px;
+}
+.BooksSection_Image img{
+    width: 500px;
+    margin: 45px;
+}
+
+/* Footer */
+.footer{
+    background-color: #c000ff;
+    color: #fafefbea;
+    padding: 16px;
+}
+
+.footer_text{
+    text-align: center;
+}

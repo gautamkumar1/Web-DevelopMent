@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: #fc0303;
+    text-decoration: underline;
+    font-family: cursive;
+}
+
+p{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    border: 2px solid black;
+}
+
+/* Hover */
+p:hover{
+    border: 8px solid red;
+    background-color: yellow;
+    font-size: 4px;
+    text-align: left;
+}
+
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: yellow;
+}
+
+/* Display Properties */
+div{
+    display: inline-block; /* This function convert block level to inline*/
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+}
+
+span{
+    display: block;
+}
