@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML | Forms</title>
+</head>
+<body>
+    <!-- Forms -->
+    <!-- Notte : - name attributes use hota hai database me kis naam se data save krna uske liye -->
+    <!-- FieldSet : fieldset tag ek chaaro taraf ek alag se border bana deta hai -->
+    <!-- Legend : legend tag us border me woh text likh deta hai jo ki legend tag ke andar rhta hai -->
+    <!-- Attributes of Form tag
+        1. action : yah action ke liye use hota hai i mean khn pe form ka data store krna hai
+        2. method="get" : yah submit ya kuch bhi  krne pe HTTP pr sara detail deta hai uske liye
+        3. method="post" : ispe koii bhi data ya kuch bhi HTTP pr show nhi hota hai uske liye
+     -->
+
+     <!-- Input Tag Attributes 
+        1.placeholer
+        2.disbale
+        3.autofocus
+        4.value
+        5.readonly
+        6.type
+        7.name
+        8.size
+        9.maxlength
+        10.min
+        11.max
+    -->
+    <form>
+        <!-- Text -->
+        <label for="name">First Name : </label>
+        <input type="text" id="name" name="username">
+        <!-- Radio Button -->
+        <br>
+        Gender
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female">
+        <!-- Date  -->
+        <br>
+        <label for="dob">DOB</label>
+        <input type="date" name="userdob" id="dob">
+        <!-- Number -->
+        <br>
+        <label for="age">Age</label>
+        <input type="number" name="userage" id="age">
+        <!-- CheckBox -->
+        <br>
+        Fav Movie : 
+        <label for="SitaRam">Sita Ram</label>
+        <input type="checkbox" name="sitaram" id="SitaRam">
+        <label for=KGF">KGF</label>
+        <input type="checkbox" name=KGF" id=KGF">
+        <!-- Password Field Control -->
+        <br>
+        <label for="pw">Password</label>
+        <input type="password" name="userpw" id="id">
+        <br>
+        <!-- Email Control -->
+        <label for="email">Email</label>
+        <input type="email" name="useremail" id="email">
+        <!-- Textarea -->
+        <br> <br>
+        <label for="address">Address</label>
+        <textarea name="useraddress" id="address" cols="50" rows="4"></textarea>
+        <!-- Button Control -->
+        <br>
+        <br>
+        <input type="button" value="Submit">
+    </form>
+</body>
+</html>
