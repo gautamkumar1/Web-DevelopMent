@@ -1,0 +1,62 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Lato",sans-serif;
+    line-height: 1em;
+    color: #666;
+}
+/* Section 1 */
+.image1{
+    background-image: url(./Image/image1.png);
+    min-height: 100%;
+}
+/* Image Text Properties */
+.image-text{
+    color: #000000;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+/* Text Background Section 1 */
+.text-bg{
+    background-color: #313131;
+    color: #fff;
+    padding: 20px;
+}
+/* All Image Properties */
+.image1,.image2,.image3{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Section Light */
+.section {
+    padding: 50px 80px;
+    text-align: center;
+  }
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+  }
+/* Image 2 */
+.image2{
+    background-image: url(./Image/image2.png);
+    min-height: 400px;
+}
+.section-Dark{
+    background-color: #313131;
+    color: #fff;
+}
+/* Image 3 */
+.image3{
+    background-image: url(./Image/image3.png);
+    min-height: 400px;
+}
