@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS | Transitions</title>
+    <!-- Transtition hum time hum hover ke time speed control ke liye use krte hai
+    types of transition
+            1. Transition
+            2. transition-timing-function: iske andar aata hai "ease,ease-in,ease-in-out" 
+            3.transition delay-->
+    <style>
+        div{
+            background-color: aquamarine;
+            width: 100px;
+            height: 100px;
+            transition: width 2s,height 3s,color 4s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 3s;
+        }
+        div:hover{
+            width: 200px;
+            height: 150px;
+            background-color: #ff009d;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

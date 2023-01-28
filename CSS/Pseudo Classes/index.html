@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        /* Pseudo Classes
+        Syntax For createing Pseudo class -> selectors:class-function
+        */
+
+        /* Hover */
+        .hover:hover{
+            color: #ff00a2;
+            background-color: black;
+        }
+        /* Focus */
+        input:focus{
+            color: red;
+            background-color: azure;
+        }
+        /* Pseudo Element */
+        /* First Line */
+        p::first-line{
+            color: #ff00a2;
+        }
+        /* First Letter */
+        p::first-letter{
+            color: aqua;
+        }
+        /* After */
+        p::after{
+            content: "-GauTam Kumar";
+            color: blue;
+        }
+        /* Before */
+        p::before{
+            content: "-Mr.GauTam";
+            color: chartreuse;
+        }
+        /* Selection */
+        p::selection{
+            color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <h2>Hover</h2>
+    <a href="https://www.youtube.com/" class="hover">Youtube</a>
+    <h2>Focus</h2>
+    <input type="text" name="" id="">
+    <h1>Pseudo Element</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, excepturi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, earum.</p>
+</body>
+</html>
