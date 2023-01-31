@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS | Flexbox</title>
+    <style>
+        /* Flex Items Properties 
+        1. order(by default all item ka order 0 rhta hai) : page kiska order zyadh hai uske use ke liye hum iska use krte hai
+        2.flex-grow:numericvalue; => yah item grow krne ke liye use hota hai
+        3.flex-shrink:numericvalue -> yah item dcrease krne ke liye use hota hai
+        4.flex-basic => yah ek tarah se item ka height width dene ke liye hi use hota hai
+        5.flex => this is a shorthand properties of flex-grow ,flex0shrink and flex-basic
+        synatx of flex: flex:flex-grow flex-shrink flex-basic;
+        6.align-self : just like a justfiy content but sirf ek hi diffrence hai yh sirf individual item pe lgta hai or hume usko jahan dalana hai uske liye use krte hai.
+        */
+        .flex-container{
+            border: 1px solid #000;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+        }
+        .flex-items{
+            width: 100px;
+            height: 100px;
+        }
+        .box1{
+            background-color: red;
+        }
+        .box2{
+            background-color: yellow;
+        }
+        .box3{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-items box1">Box-1</div>
+        <div class="flex-items box2">Box-2</div>
+        <div class="flex-items box3">Box-3</div>
+    </div>
+</body>
+</html>

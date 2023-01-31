@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS | Flexbox</title>
+    <style>
+        /* Flexbox sirf 0ne dimension me use hota hai */
+        /* Flex Conatiner Properties */
+        .flex-container{
+            border: 1px solid black;
+            display: flex;
+            height: 300px;
+            /* => Flex Direction -> default column hi rhta hai.
+            1.column(Default)
+            2.Column reverse
+            3.row
+            4.row reverse
+            */
+            /* flex-direction: row; */
+            /* Flex wrap
+            1.wrap
+            2.warp-reverse
+            3.nowrap(default)
+             */
+             /* flex-wrap: wrap; */
+             /* Flex Flow  => flex flow is a shorthand of flex-firection and flex-warp
+             syntax of flex-flow : flex-flow:flex-direction flex-wrap;
+             => Flex direction properties
+            1.column
+            2.Column reverse
+            3.row
+            4.row reverse
+            => Flex Wrap properties
+            5.wrap
+            6.warp-reverse
+            7.nowrap
+             */
+             /* flex-flow: row nowrap; */
+
+             /* Justify Content ===> Most Important properties of flex box 
+             1.center => sabko center me kar deta hai.
+             2.space-around => chaaro side space de deta hai.
+             3.space-between => item ke bich me space deta hai.
+             4.space-evenly => item ko eqlaly space deta hai.
+             */
+             justify-content: center;
+
+             /* Align Items => 2nd Most important properties of flex box.
+             1.center
+             2.flex-end
+             3.flex-start 
+             
+             */
+             /* align-items: center; */
+
+             /* Gap */
+             /* row-gap: 4px; */
+             /* column-gap: 3px; */
+        }
+        .flex-items{
+            width: 100px;
+            height: 100px;
+        }
+        .box1{
+            background-color: red;
+        }
+        .box2{
+            background-color: yellow;
+        }
+        .box3{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-items box1">Box-1</div>
+        <div class="flex-items box2">Box-2</div>
+        <div class="flex-items box3">Box-3</div>
+    </div>
+</body>
+</html>
