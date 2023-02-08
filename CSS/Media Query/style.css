@@ -1,0 +1,30 @@
+body{
+    background-color: bisque;
+}
+div{
+    font-size: x-large;
+    text-align: center;
+}
+div::after{
+    content: 'Welcome To Page';
+}
+/* 
+Syntax : @media media_target media_feature and(media_feature:value){
+    styles of css
+}
+ */
+@media (min-width:400px) and (max-width:600px){
+    body{
+        background-color: red;
+    }
+    div::after{
+        content: 'wow its working';
+    }
+}
+
+@media(min-width:700px) and (max-width:1000px){
+    body{
+        background-color: #2dd8a7
+        ;
+    }
+}
